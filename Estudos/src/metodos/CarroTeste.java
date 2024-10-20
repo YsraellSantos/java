@@ -1,4 +1,4 @@
-package orientaçaoObjetos;
+package metodos;
 
 public class CarroTeste {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class CarroTeste {
         carro.nome = "Ford Fusion";
         carro.corCarro = "Preto";
         carro.anoCarro = 2013;
-        carro.velocidade = 119f;
+        carro.velocidade = 100f;     
         
         System.out.println("Radar a frente, \nVelocidade Máxima: 80 km/h");
         carro.freiar(50);
